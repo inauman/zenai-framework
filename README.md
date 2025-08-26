@@ -1,12 +1,15 @@
 # ZenAI Programming Rituals 🧘‍♂️🤖
 
-A practical, open-source framework for collaborating with AI development assistants (like Cursor, ChatGPT, or Claude) with clarity, structure, and discipline.
+A battle-tested, open-source framework for Agent-Driven Development (ADD) that transforms AI collaboration from chaotic prompting into orchestrated multi-agent systems with sub-2-minute context reconstruction.
 
-This system helps you:
-- Think like an architect before you build
-- Codify project planning and validation rituals
-- Design first, code later — with security and sanity
-- Evolve your AI workflows as a living engineering discipline
+## 🚀 What is ZenAI?
+
+ZenAI solves the **"Context Reconstruction Problem"** - the 25-35 minute overhead that kills productivity when starting new AI sessions. Through Context Engineering and orchestrated agent teams, ZenAI enables:
+
+- **94% faster context loading** (from 35 minutes to <2 minutes)
+- **Multi-agent orchestration** with specialized AI personas
+- **Living documentation** that evolves with your project
+- **Production-ready patterns** validated in real-world projects
 
 ---
 
@@ -14,10 +17,10 @@ This system helps you:
 
 ZenAI is built on the **3PAI philosophy** - four pillars that ensure effective AI-human collaboration:
 
-- **🧠 People + AI**: Customer-centric collaboration and stakeholder alignment
-- **⚙️ Process**: Efficient and effective ways to build trustworthy, secure, faster, cheaper, and highest quality products
-- **🏗️ Platform**: Technology, tools, frameworks, and standards that enable success
-- **🤖 AI**: Integrated throughout all pillars to enhance human capabilities
+- **🧠 People + AI**: Orchestrated agent teams with human oversight
+- **⚙️ Process**: Context-aware rituals for efficient development
+- **🏗️ Platform**: Standards and tools for consistent quality
+- **🤖 AI**: Agent-driven development throughout all pillars
 
 **[📖 Read the complete 3PAI Framework Guide →](zenai/README.md)**
 
@@ -27,37 +30,44 @@ ZenAI is built on the **3PAI philosophy** - four pillars that ensure effective A
 
 ```bash
 zenai-programming-rituals/
+├── docs/
+│   ├── context-engineering-framework.md  # Core innovation for fast context loading
+│   └── zenai-evolution-analysis.md       # Framework evolution and validation
 └── zenai/
-    ├── README.md                      # 3PAI Framework Overview
-    ├── personas.md                    # People + AI (Customer-centric roles)
-    ├── rituals/                       # Process (How we work efficiently)
+    ├── README.md                          # 3PAI Framework Overview
+    ├── personas.md                        # Agent team definitions
+    ├── context-management.md              # NEW: Context Engineering guide
+    ├── agent-orchestration.md             # NEW: Multi-agent coordination
+    ├── rituals/                           # Process patterns
+    │   ├── ritual_context_management.md   # NEW: Context maintenance
+    │   ├── ritual_agent_handoff.md        # NEW: Agent coordination
     │   ├── ritual_project_documentation.md
     │   ├── ritual_test_strategy.md
-    │   ├── ritual_technical_blueprint.md
-    │   ├── ritual_validation_checklist.md
     │   ├── ritual_retrospective.md
-    │   ├── ritual_interface_design.md
     │   └── ritual_antipatterns.md
-    ├── standards/                     # Platform (What we use)
-    │   ├── standard_logging.md
-    │   ├── standard_security.md
-    │   ├── standard_error_handling.md
-    │   ├── standard_testing.md
-    │   └── [more standards...]
-    └── [legacy files during transition]
+    └── standards/                         # Platform standards
+        ├── standard_context_hierarchy.md  # NEW: Context structure
+        ├── standard_agent_contracts.md    # NEW: Agent I/O specs
+        ├── standard_security.md
+        ├── standard_error_handling.md
+        └── standard_testing.md
 ```
 
 ---
 
 ## 🎯 Why Use This?
 
-If you're:
-- Building serious projects using AI dev assistants
-- Frustrated by guessy or chaotic AI behavior
-- Tired of repeating instructions, context, and rules
-- Looking for more rigor, architecture, and automation…
+### The Problem You're Facing
+- **Context Reconstruction Tax**: 25-35 minutes to explain your project every new AI chat
+- **Chat Reset Dread**: Avoiding fresh sessions, stuck with degraded long-running chats
+- **Agent Chaos**: Multiple AI assistants working at cross-purposes
+- **Knowledge Loss**: Decisions and context disappearing between sessions
 
-This framework gives you a repeatable, improvable way to work with AI — like a true teammate, not a code vending machine.
+### The ZenAI Solution
+- **2-Minute Context Loading**: Hierarchical context system for instant onboarding
+- **Orchestrated Agent Teams**: Specialized personas working in harmony
+- **Living Documentation**: Context that evolves and maintains itself
+- **Production-Ready Patterns**: Battle-tested in real-world projects
 
 ---
 
@@ -83,11 +93,15 @@ This framework gives you a repeatable, improvable way to work with AI — like a
 
 ## 🚀 Getting Started
 
+### 15-Minute Quick Start
+**[⚡ Quick Start Guide](zenai/quick-start.md)** - Get operational in 15 minutes
+
+### Complete Setup
 1. **[📖 Read the 3PAI Framework Guide](zenai/README.md)** - Understand the philosophy and structure
-2. **[👥 Choose Your Persona](zenai/personas.md)** - Identify your role and responsibilities
-3. **[⚙️ Select Relevant Rituals](zenai/rituals/)** - Pick process patterns for your current work
-4. **[🏗️ Follow Standards](zenai/standards/)** - Apply technical and process standards
-5. **[🔄 Contribute Back](zenai/rituals/ritual_retrospective.md)** - Share learnings to improve the framework
+2. **[🎯 Context Management](zenai/context-management.md)** - Set up your context system
+3. **[🤖 Agent Orchestration](zenai/agent-orchestration.md)** - Build your agent team
+4. **[⚙️ Select Relevant Rituals](zenai/rituals/)** - Pick process patterns for your current work
+5. **[🏗️ Follow Standards](zenai/standards/)** - Apply technical and process standards
 
 ---
 

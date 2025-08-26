@@ -44,3 +44,5 @@ coverage/
 # Env files
 .env
 .env.* 
+
+scratchbook/
