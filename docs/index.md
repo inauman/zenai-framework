@@ -98,9 +98,9 @@ Each agent has:
 
 ---
 
-## Quick Start: 15 Minutes to Operational
+## Quickstart Guide
 
-### Minutes 1-5: Create Your Context
+### Step 1: Create Your Context
 ```markdown
 # /context.md
 - Project description (2-3 sentences)
@@ -109,13 +109,13 @@ Each agent has:
 - Essential commands
 ```
 
-### Minutes 6-10: Define Your Agents
+### Step 2: Define Your Agents
 Start with 3 core agents:
 - ZenMaster (orchestrator)
 - System Architect (design)
 - Full-Stack Engineer (implementation)
 
-### Minutes 11-15: Run Your First Task
+### Step 3: Run Your First Task
 ```
 "System Architect, read context.md and design [feature]"
 → Review design
@@ -193,10 +193,4 @@ ZenAI isn't just a framework — it's your path from AI chaos to AI excellence.
 
 ---
 
-**[Get Started Now →](https://github.com/inauman/zenai-programming-rituals)**  
-**[Read the Blog →](https://medium.com/@yourusername/zenai-lazy-programmers-guide)**  
-**[Join Discord →](https://discord.gg/zenai)** *(Coming Soon)*
-
----
-
-*Built by a lazy programmer who believes the best code is the code you don't have to explain twice.*
+*"The best frameworks don't just provide structure—they enable teams to work smarter, not harder, while delivering more value to customers."* – ZenAI Philosophy
