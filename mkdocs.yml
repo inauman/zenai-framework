@@ -3,6 +3,13 @@ site_description: A battle-tested framework for AI-assisted software development
 site_author: Nauman
 repo_name: inauman/zenai-framework
 repo_url: https://github.com/inauman/zenai-framework
+docs_dir: .
+site_dir: site
+exclude_docs: |
+  site/
+  archive/
+  .claude/
+  .github/
 
 theme:
   name: material
