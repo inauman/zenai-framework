@@ -1,12 +1,12 @@
-# /dev-docs Skill — Starter Template
+# /create-dev-docs Skill — Starter Template
 
-Copy to `.claude/skills/dev-docs/SKILL.md` and customize.
+Copy to `.claude/skills/create-dev-docs/SKILL.md` and customize.
 
 ---
 
 ```yaml
 ---
-name: dev-docs
+name: create-dev-docs
 description: Create a comprehensive plan with structured task breakdown. If no argument, auto-read Claude's plan file from ~/.claude/plans/ as input.
 argument-hint: Feature name or description
 ---

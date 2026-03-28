@@ -135,7 +135,7 @@ Quick captures — not full plans. One markdown file per idea with:
 - Origin (which session surfaced it)
 - Priority (low/medium/high)
 
-Promoted to `active/` via `/dev-docs` when you're ready to spec it out.
+Promoted to `active/` via `/create-dev-docs` when you're ready to spec it out.
 
 ### Phase Accumulation
 

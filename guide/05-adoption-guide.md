@@ -23,11 +23,11 @@ echo "handoff/" >> .gitignore
 Copy the starter skills from `templates/project-setup/` into your project's `.claude/skills/` directory:
 
 ```bash
-mkdir -p .claude/skills/dev-docs .claude/skills/update-dev-docs
+mkdir -p .claude/skills/create-dev-docs .claude/skills/update-dev-docs
 mkdir -p .claude/skills/add-backlog .claude/skills/fix-plan
 
-cp templates/project-setup/dev-docs-SKILL.md .claude/skills/dev-docs/SKILL.md
-cp templates/project-setup/update-dev-docs-SKILL.md .claude/skills/update-dev-docs/SKILL.md
+cp templates/project-setup/create-dev-docs-SKILL.md .claude/skills/create-dev-docs/SKILL.md
+cp templates/project-setup/update-create-dev-docs-SKILL.md .claude/skills/update-dev-docs/SKILL.md
 cp templates/project-setup/add-backlog-SKILL.md .claude/skills/add-backlog/SKILL.md
 cp templates/project-setup/fix-plan-SKILL.md .claude/skills/fix-plan/SKILL.md
 ```
@@ -90,7 +90,7 @@ If you don't have one, create a `CLAUDE.md` at your project root (see `templates
 
 Review and iterate. When satisfied:
 ```
-/dev-docs <feature-name>
+/create-dev-docs <feature-name>
 /update-dev-docs
 /clear
 ```
@@ -145,7 +145,7 @@ After your first cycle:
 
 You don't have to adopt everything at once. Start with:
 
-1. **Week 1**: `/dev-docs` + `/update-dev-docs` — just the session continuity system
+1. **Week 1**: `/create-dev-docs` + `/update-dev-docs` — just the session continuity system
 2. **Week 2**: Add `@zen-audit` — catch the self-praise problem
 3. **Week 3**: Add domain skills — encode your project's knowledge
 4. **Week 4**: Full workflow with `/fix-plan`, `/code-review`, `/show-n-tell`

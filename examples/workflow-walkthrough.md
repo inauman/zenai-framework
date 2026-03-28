@@ -5,7 +5,7 @@ A complete end-to-end example showing one full cycle of the ZenAI workflow. This
 ## Setup
 
 Assume you have a project with:
-- ZenAI project-level skills installed (`/dev-docs`, `/update-dev-docs`, `/add-backlog`, `/fix-plan`)
+- ZenAI project-level skills installed (`/create-dev-docs`, `/update-dev-docs`, `/add-backlog`, `/fix-plan`)
 - Verification agents configured (`zen-audit`, `zen-review`)
 - At least one domain skill (e.g., `/d-backend`)
 

@@ -10,7 +10,7 @@ Plan → /clear → Execute → /clear → Verify → Fix → Review → Show & 
 
 | Phase | Who | Key Action |
 |---|---|---|
-| **Plan** | Default agent + skills | Interactive planning → `/dev-docs` |
+| **Plan** | Default agent + skills | Interactive planning → `/create-dev-docs` |
 | **Execute** | Default agent + skills | Work through tasks → `/update-dev-docs` to checkpoint |
 | **Verify** | `@zen-audit` + `@zen-review` | Fire-and-forget agents → reports in `handoff/` |
 | **Fix** | Default agent + `/fix-plan` | Triage findings → fix docs → execute fixes |
@@ -26,7 +26,7 @@ Enter plan mode. Discuss, iterate, research. Load domain skills as needed for sp
 After approval, persist the plan:
 
 ```
-/dev-docs <feature-name>
+/create-dev-docs <feature-name>
 ```
 
 This creates three files in `docs/plan/active/<feature>/`:

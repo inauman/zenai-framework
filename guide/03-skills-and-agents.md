@@ -57,7 +57,7 @@ Skills that automate the dev-docs system. These live in your project's `.claude/
 
 | Skill | Purpose |
 |---|---|
-| `/dev-docs` | Create 3-file plan after planning phase |
+| `/create-dev-docs` | Create 3-file plan after planning phase |
 | `/update-dev-docs` | Checkpoint progress + generate session handoff prompt |
 | `/add-backlog` | Quick capture to `docs/plan/backlog/` |
 | `/fix-plan` | Triage audit+review findings into fix docs |
