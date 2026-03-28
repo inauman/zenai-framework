@@ -1,128 +1,74 @@
-# ZenAI Programming Rituals 🧘‍♂️🤖
+# ZenAI Framework
 
-A battle-tested, open-source framework for Agent-Driven Development (ADD) that transforms AI collaboration from chaotic prompting into orchestrated multi-agent systems with sub-2-minute context reconstruction.
+A battle-tested framework for AI-assisted software development on long-running, complex projects. Built for Claude Code. Validated over months on production systems.
 
-## 🚀 What is ZenAI?
+**Skills for interactive work. Agents for verification. Documents for continuity.**
 
-ZenAI solves the **"Context Reconstruction Problem"** - the 25-35 minute overhead that kills productivity when starting new AI sessions. Through Context Engineering and orchestrated agent teams, ZenAI enables:
+## The Workflow
 
-- **94% faster context loading** (from 35 minutes to <2 minutes)
-- **Multi-agent orchestration** with specialized AI personas
-- **Living documentation** that evolves with your project
-- **Production-ready patterns** validated in real-world projects
-
----
-
-## 🎯 **3PAI Framework Philosophy**
-
-ZenAI is built on the **3PAI philosophy** - four pillars that ensure effective AI-human collaboration:
-
-- **🧠 People + AI**: Orchestrated agent teams with human oversight
-- **⚙️ Process**: Context-aware rituals for efficient development
-- **🏗️ Platform**: Standards and tools for consistent quality
-- **🤖 AI**: Agent-driven development throughout all pillars
-
-**[📖 Read the complete 3PAI Framework Guide →](zenai/README.md)**
-
----
-
-## 📦 What's Inside
-
-```bash
-zenai-programming-rituals/
-├── docs/
-│   ├── context-engineering-framework.md  # Core innovation for fast context loading
-│   └── zenai-evolution-analysis.md       # Framework evolution and validation
-└── zenai/
-    ├── README.md                          # 3PAI Framework Overview
-    ├── personas.md                        # Agent team definitions
-    ├── context-management.md              # NEW: Context Engineering guide
-    ├── agent-orchestration.md             # NEW: Multi-agent coordination
-    ├── rituals/                           # Process patterns
-    │   ├── ritual_context_management.md   # NEW: Context maintenance
-    │   ├── ritual_agent_handoff.md        # NEW: Agent coordination
-    │   ├── ritual_project_documentation.md
-    │   ├── ritual_test_strategy.md
-    │   ├── ritual_retrospective.md
-    │   └── ritual_antipatterns.md
-    └── standards/                         # Platform standards
-        ├── standard_context_hierarchy.md  # NEW: Context structure
-        ├── standard_agent_contracts.md    # NEW: Agent I/O specs
-        ├── standard_security.md
-        ├── standard_error_handling.md
-        └── standard_testing.md
+```
+Plan → Execute → Verify → Fix → Review → Show & Tell → Archive
 ```
 
----
+| Phase | Who | Purpose |
+|---|---|---|
+| **Plan** | Default agent + skills | Interactive planning, produce dev-docs |
+| **Execute** | Default agent + skills | Build features, checkpoint with handoff prompts |
+| **Verify** | zen-audit + zen-review | Independent verification (separate context) |
+| **Fix** | Default agent | Triage findings, execute fixes |
+| **Review** | Default agent + code-review skill | Interactive code review ceremony |
+| **Show & Tell** | Default agent + show-n-tell skill | Final quality gate before completion |
 
-## 🎯 Why Use This?
+## What's Inside
 
-### The Problem You're Facing
-- **Context Reconstruction Tax**: 25-35 minutes to explain your project every new AI chat
-- **Chat Reset Dread**: Avoiding fresh sessions, stuck with degraded long-running chats
-- **Agent Chaos**: Multiple AI assistants working at cross-purposes
-- **Knowledge Loss**: Decisions and context disappearing between sessions
+```
+guide/
+├── 01-philosophy.md           Why this framework exists
+├── 02-workflow.md             The core workflow (start here)
+├── 03-skills-and-agents.md    Skills vs. subagents architecture
+├── 04-session-continuity.md   Dev-docs system + handoff prompts
+├── 05-adoption-guide.md       30-minute setup for any project
+├── rituals/                   4 surviving ceremonies
+├── standards/                 Security, testing, logging, error handling
+└── insights/                  Hard-won lessons from real usage
 
-### The ZenAI Solution
-- **2-Minute Context Loading**: Hierarchical context system for instant onboarding
-- **Orchestrated Agent Teams**: Specialized personas working in harmony
-- **Living Documentation**: Context that evolves and maintains itself
-- **Production-Ready Patterns**: Battle-tested in real-world projects
+templates/
+├── skill-template.md          How to write a skill
+├── agent-template.md          How to write a verification agent
+├── dev-docs-*.md              Plan, context, and tasks templates
+├── handoff-prompt.md          Session handoff prompt template
+└── project-setup/             Starter files to copy into your project
 
----
+examples/
+└── workflow-walkthrough.md    End-to-end example of one full cycle
+```
 
-## 🧠 Core Principles
+## Key Concepts
 
-- **Customer-Centric**: Every decision filtered through customer value lens
-- **Security-First**: Security is default, not an add-on
-- **Process-Driven**: Proven rituals for common development challenges
-- **Standard-Based**: Consistent technical and process standards
-- **AI-Enhanced**: AI capabilities enhance human expertise, not replace it
-- **Continuous Learning**: Feedback loops built into every phase
+**Skills** load knowledge into the default agent's context. You use them for interactive work — planning, coding, reviewing. They enrich the conversation without context switching.
 
----
+**Verification agents** (zen-audit, zen-review) run in isolated context windows. They read the task contract and the code cold, with no memory of the planning discussion. This solves the [same-mind self-praise problem](guide/insights/same-mind-self-praise.md).
 
-## 🛠️ Compatible With
+**Dev-docs** (plan.md, context.md, tasks.md) are the handoff contract between sessions. The session handoff prompt — generated before every context reset — captures insights, corrections, and current state so the next session starts informed, not from zero.
 
-- 🧠 Cursor
-- 💬 ChatGPT / GPT-4
-- 🤖 Claude / Anthropic
-- 🧪 Any system that supports markdown rituals or AI planning flows
+## Getting Started
 
----
+1. Read [02-workflow.md](guide/02-workflow.md) — the core workflow (5 minutes)
+2. Follow [05-adoption-guide.md](guide/05-adoption-guide.md) — set up on your project (30 minutes)
+3. Copy starter files from [templates/project-setup/](templates/project-setup/) into your project
+4. Run your first full cycle
 
-## 🚀 Getting Started
+## What This Is Not
 
-### 15-Minute Quick Start
-**[⚡ Quick Start Guide](zenai/quick-start.md)** - Get operational in 15 minutes
+- Not a prompt library (it's a workflow framework)
+- Not tool-specific (Claude Code first, but principles apply to any AI assistant)
+- Not theoretical (every pattern survived months of real usage)
+- Not prescriptive about your tech stack (works with any language/framework)
 
-### Complete Setup
-1. **[📖 Read the 3PAI Framework Guide](zenai/README.md)** - Understand the philosophy and structure
-2. **[🎯 Context Management](zenai/context-management.md)** - Set up your context system
-3. **[🤖 Agent Orchestration](zenai/agent-orchestration.md)** - Build your agent team
-4. **[⚙️ Select Relevant Rituals](zenai/rituals/)** - Pick process patterns for your current work
-5. **[🏗️ Follow Standards](zenai/standards/)** - Apply technical and process standards
+## Origin
 
----
+This framework evolved from the ZenAI Programming Rituals v1, which was designed around a 12-agent orchestration model. Real-world usage proved that most of that complexity didn't survive contact with reality. The v2 framework is radically simpler — only including what actually works. See [insights/what-didnt-work.md](guide/insights/what-didnt-work.md) for the honest postmortem.
 
-## 🙋‍♂️ Maintainer
+## License
 
-Created by [Nauman](https://github.com/inauman), a hands-on technical leader experimenting with human–AI partnership frameworks in real-world software delivery.
-
----
-
-## 📜 License
-
-MIT — use freely, improve mindfully. Contributions welcome. 🙏
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from the community! To contribute:
-- Fork the repository and create a new branch for your changes.
-- Follow the project's structure and documentation style.
-- Use clear, conventional commit messages.
-- Please see our [commit formatting guide](.github/COMMIT_GUIDE.md) before submitting a pull request.
-
-Thank you for helping improve ZenAI Programming Rituals!
+MIT — see [LICENSE](LICENSE)

@@ -1,8 +1,8 @@
-site_name: "ZenAI Programming Rituals"
-site_description: Transform your AI assistant from a frustrating bot to a reliable programming partner
+site_name: "ZenAI Framework"
+site_description: A battle-tested framework for AI-assisted software development on long-running, complex projects
 site_author: Nauman
-repo_name: inauman/zenai-programming-rituals
-repo_url: https://github.com/inauman/zenai-programming-rituals
+repo_name: inauman/zenai-framework
+repo_url: https://github.com/inauman/zenai-framework
 
 theme:
   name: material
@@ -28,8 +28,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  logo: false
-  favicon: false
 
 markdown_extensions:
   - admonition
@@ -50,9 +48,40 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-revision-date-localized
+
+nav:
+  - Home: README.md
+  - Guide:
+    - Philosophy: guide/01-philosophy.md
+    - Workflow: guide/02-workflow.md
+    - Skills & Agents: guide/03-skills-and-agents.md
+    - Session Continuity: guide/04-session-continuity.md
+    - Adoption Guide: guide/05-adoption-guide.md
+  - Rituals:
+    - Show & Tell: guide/rituals/show-and-tell.md
+    - Retrospective: guide/rituals/retrospective.md
+    - Validation Checklist: guide/rituals/validation-checklist.md
+    - Antipatterns: guide/rituals/antipatterns.md
+  - Standards:
+    - Security: guide/standards/security.md
+    - Testing: guide/standards/testing.md
+    - Logging: guide/standards/logging.md
+    - Error Handling: guide/standards/error-handling.md
+  - Insights:
+    - Same-Mind Self-Praise: guide/insights/same-mind-self-praise.md
+    - Skills vs. Subagents: guide/insights/skills-vs-subagents.md
+    - What Didn't Work: guide/insights/what-didnt-work.md
+  - Templates:
+    - Skill Template: templates/skill-template.md
+    - Agent Template: templates/agent-template.md
+    - Dev-Docs Plan: templates/dev-docs-plan.md
+    - Dev-Docs Context: templates/dev-docs-context.md
+    - Dev-Docs Tasks: templates/dev-docs-tasks.md
+    - Handoff Prompt: templates/handoff-prompt.md
+  - Examples:
+    - Workflow Walkthrough: examples/workflow-walkthrough.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/inauman/zenai-programming-rituals 
+      link: https://github.com/inauman/zenai-framework
