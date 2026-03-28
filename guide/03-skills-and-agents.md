@@ -41,14 +41,16 @@ Skills tied to specific phases of the development workflow.
 ### d-tier: Domain Expertise (project-specific knowledge)
 Deep knowledge for your project's technology domains.
 
+**Examples** (from real projects):
+
 | Skill | Purpose |
 |---|---|
-| `/bitcoin` | Protocol knowledge — BIPs, PSBT, Lightning, Liquid |
-| `/nostr` | NIP-17 Gift Wraps, NIP-44 encryption, relay patterns |
-| `/yubikey` | PIV, FIDO, OTP across platforms |
-| `/cli` | Agent-first CLI design — exit codes, JSON output, security |
+| `/d-graphql` | Schema design, resolvers, N+1 prevention |
+| `/d-postgres` | Query optimization, migrations, indexing |
+| `/d-auth` | JWT, OAuth, session management, RBAC |
+| `/d-cli` | Agent-first CLI design — exit codes, JSON output |
 
-**Create your own d-tier skills** for your project's domains. A backend web app might have `/d-graphql`, `/d-postgres`, `/d-auth`. A mobile app might have `/d-swift`, `/d-android`, `/d-push-notifications`.
+**Create your own d-tier skills** for your project's technology domains. The key is deep, reusable knowledge that the default agent doesn't have natively.
 
 ### Project-level skills (workflow automation)
 Skills that automate the dev-docs system. These live in your project's `.claude/skills/` directory, not globally.
