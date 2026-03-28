@@ -72,13 +72,6 @@ nav:
     - Same-Mind Self-Praise: guide/insights/same-mind-self-praise.md
     - Skills vs. Subagents: guide/insights/skills-vs-subagents.md
     - What Didn't Work: guide/insights/what-didnt-work.md
-  - Templates:
-    - Skill Template: templates/skill-template.md
-    - Agent Template: templates/agent-template.md
-    - Dev-Docs Plan: templates/dev-docs-plan.md
-    - Dev-Docs Context: templates/dev-docs-context.md
-    - Dev-Docs Tasks: templates/dev-docs-tasks.md
-    - Handoff Prompt: templates/handoff-prompt.md
   - Examples:
     - Workflow Walkthrough: examples/workflow-walkthrough.md
 
